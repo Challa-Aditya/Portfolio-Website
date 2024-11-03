@@ -1,7 +1,7 @@
 import PdfViewer from '@/components/PdfViewer';
 
 const PdfViewerPage = () => {
-  const pdfUrl = '/assets/text/Aditya_challa_resume_fr.pdf'; // Adjust the path to your PDF file
+  const pdfUrl = '/assets/text/Aditya_Challa_resume.pdf'; // Adjust the path to your PDF file
 
   return (
     <div className='flex flex-col items-center space-y-4 mt-16 pt-1 px-6 relative border-b border-neutral-900 pb-4 lg:mb-35'>
