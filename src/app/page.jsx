@@ -1,6 +1,7 @@
 'use client'
 import { delay, motion } from "framer-motion";
 import Typed from "@/components/Typed";
+import Skills from "@/components/Skills";
 
 const container = (delay) => ({
   hidden: { x: -100, opacity: 0 },
@@ -41,8 +42,9 @@ const Home = () => {
               animate="visible"
               className="my-2 text-white max-lg:text-center max-w-xl py-6 font-light tracking-tighter"
             >
-              edghwio eorigoeirjb epsrgjwoesdj epsgjbwrpjgpid epfjgpwrjb prpgjepj pfjpwejf pqi20rnb wprjbpwo nwprgp4wbmp o
-              wrbopej pnwrpbn pnprebn pnwrpbnpw nwrbpnen pwrn pn rwpnfb pjwprmbpj pwrgjj ongjwspn pnrnipgsjgpb;p jrpsjb pij
+              Hey! I'm Aditya.
+              With a passion for data analysis, machine learning, and frontend development, I love transforming data into insights 
+              and building user-focused solutions. Dive in to see how I bring ideas to life through tech and creativity.
             </motion.p>
           </div>
         </div>
@@ -61,20 +63,8 @@ const Home = () => {
         </div>
       </div>
 
-      <p className="text-white">edghwio eorigoeirjb epsrgjwoesdj epsgjbwrpjgpid epfjgpwrjb prpgjepj pfjpwejf pqi20rnb wprjbpwo nwprgp4wbmp o
-      wrbopej pnwrpbn pnprebn pnwrpbnpw nwrbpnen pwrn pn rwpnfb pjwprmbpj pwrgjj ongjwspn pnrnipgsjgpb;p jrpsjb pij</p>
-      <p className="text-white">edghwio eorigoeirjb epsrgjwoesdj epsgjbwrpjgpid epfjgpwrjb prpgjepj pfjpwejf pqi20rnb wprjbpwo nwprgp4wbmp o
-      wrbopej pnwrpbn pnprebn pnwrpbnpw nwrbpnen pwrn pn rwpnfb pjwprmbpj pwrgjj ongjwspn pnrnipgsjgpb;p jrpsjb pij</p>
-      <p className="text-white">edghwio eorigoeirjb epsrgjwoesdj epsgjbwrpjgpid epfjgpwrjb prpgjepj pfjpwejf pqi20rnb wprjbpwo nwprgp4wbmp o
-      wrbopej pnwrpbn pnprebn pnwrpbnpw nwrbpnen pwrn pn rwpnfb pjwprmbpj pwrgjj ongjwspn pnrnipgsjgpb;p jrpsjb pij</p>
-      <p className="text-white">edghwio eorigoeirjb epsrgjwoesdj epsgjbwrpjgpid epfjgpwrjb prpgjepj pfjpwejf pqi20rnb wprjbpwo nwprgp4wbmp o
-      wrbopej pnwrpbn pnprebn pnwrpbnpw nwrbpnen pwrn pn rwpnfb pjwprmbpj pwrgjj ongjwspn pnrnipgsjgpb;p jrpsjb pij</p>
-      <p className="text-white">edghwio eorigoeirjb epsrgjwoesdj epsgjbwrpjgpid epfjgpwrjb prpgjepj pfjpwejf pqi20rnb wprjbpwo nwprgp4wbmp o
-      wrbopej pnwrpbn pnprebn pnwrpbnpw nwrbpnen pwrn pn rwpnfb pjwprmbpj pwrgjj ongjwspn pnrnipgsjgpb;p jrpsjb pij</p>
-      <p className="text-white">edghwio eorigoeirjb epsrgjwoesdj epsgjbwrpjgpid epfjgpwrjb prpgjepj pfjpwejf pqi20rnb wprjbpwo nwprgp4wbmp o
-      wrbopej pnwrpbn pnprebn pnwrpbnpw nwrbpnen pwrn pn rwpnfb pjwprmbpj pwrgjj ongjwspn pnrnipgsjgpb;p jrpsjb pij</p>
-      <p>edghwio eorigoeirjb epsrgjwoesdj epsgjbwrpjgpid epfjgpwrjb prpgjepj pfjpwejf pqi20rnb wprjbpwo nwprgp4wbmp o
-      wrbopej pnwrpbn pnprebn pnwrpbnpw nwrbpnen pwrn pn rwpnfb pjwprmbpj pwrgjj ongjwspn pnrnipgsjgpb;p jrpsjb pij</p>
+      <Skills/>
+    
     </div>
 
   );
