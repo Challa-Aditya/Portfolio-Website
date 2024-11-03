@@ -18,7 +18,7 @@ const Home = () => {
   return (
     <div className="mt-16 pt-6 px-6 relative border-b border-neutral-900 pb-4 lg:mb-35">   
       <div className="relative flex flex-wrap">
-        <div className="w-full lg:w-1/2">
+        <div className="w-full lg:w-1/2 lg:ml-4">
           <div className="flex flex-col items-center lg:items-start">
             <motion.h1
               variants={container(0)}
@@ -40,7 +40,7 @@ const Home = () => {
               variants={container(1)}
               initial="hidden"
               animate="visible"
-              className="my-2 text-white text-3xl max-lg:text-center max-w-xl py-6 font-light tracking-tighter"
+              className="my-2 text-white text-2xl max-lg:text-center max-w-xl py-6 font-light tracking-tighter"
             >
               Hey! I&apos;m Aditya.
               With a passion for data analysis, machine learning, and frontend development, I love transforming data into insights 
@@ -48,7 +48,7 @@ const Home = () => {
             </motion.p>
           </div>
         </div>
-        <div className="w-full lg:w-1/2 lg:p-8">
+        <div className="w-full lg:w-5/12 lg:p-6 lg:ml-24">
           <div className="flex justify-center">
             <motion.img
               variants={container(0)}

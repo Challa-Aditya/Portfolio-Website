@@ -73,7 +73,7 @@ const Contact = () => {
   <div className='py-2'>
   <div className='w-full flex flex-row space-x-8 justify-center'>
       <a href='https://www.linkedin.com/in/aditya-challa-0aa98b1b1/'><FaLinkedin className='w-16 h-16 text-gray-200 font-light'/></a>
-      <a href='https://github.com/challa-srmap'><FaGithubSquare className='w-16 h-16 text-gray-200 '/></a>
+      <a href='https://github.com/Challa-Aditya'><FaGithubSquare className='w-16 h-16 text-gray-200 '/></a>
       <a href='https://www.instagram.com/aditya_challa02/'><FaInstagramSquare className='w-16 h-16 text-gray-200'/></a>
       <button onClick={dialPhonenumber}><FaSquarePhone className='w-16 h-16 text-gray-200'/></button>
   </div>
