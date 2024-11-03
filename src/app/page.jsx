@@ -1,5 +1,6 @@
 'use client'
 import { delay, motion } from "framer-motion";
+import Typed from "@/components/Typed";
 
 const container = (delay) => ({
   hidden: { x: -100, opacity: 0 },
@@ -32,7 +33,7 @@ const Home = () => {
               animate="visible"
               className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight max-md:text-center text-transparent"
             >
-              Full Stack Developer
+              <Typed/>
             </motion.span>
             <motion.p
               variants={container(1)}
