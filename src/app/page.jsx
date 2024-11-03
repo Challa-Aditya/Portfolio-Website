@@ -42,7 +42,7 @@ const Home = () => {
               animate="visible"
               className="my-2 text-white max-lg:text-center max-w-xl py-6 font-light tracking-tighter"
             >
-              Hey! I'm Aditya.
+              Hey! I&apos;m Aditya.
               With a passion for data analysis, machine learning, and frontend development, I love transforming data into insights 
               and building user-focused solutions. Dive in to see how I bring ideas to life through tech and creativity.
             </motion.p>
