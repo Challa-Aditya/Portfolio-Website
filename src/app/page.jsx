@@ -40,7 +40,7 @@ const Home = () => {
               variants={container(1)}
               initial="hidden"
               animate="visible"
-              className="my-2 text-white max-lg:text-center max-w-xl py-6 font-light tracking-tighter"
+              className="my-2 text-white text-3xl max-lg:text-center max-w-xl py-6 font-light tracking-tighter"
             >
               Hey! I&apos;m Aditya.
               With a passion for data analysis, machine learning, and frontend development, I love transforming data into insights 
@@ -63,8 +63,8 @@ const Home = () => {
         </div>
       </div>
 
-      <h1 className='SkillsHeading'>Technical Skills</h1>
-      <div className='skills'>
+      <h1 className='SkillsHeading text-white'>Technical Skills</h1>
+      <div className='skills text-white'>
         <Skills skill='python'/>
         <Skills skill='java'/>
         <Skills skill='tensorflow'/>
