@@ -63,7 +63,29 @@ const Home = () => {
         </div>
       </div>
 
-      <Skills/>
+      <h1 className='SkillsHeading'>Technical Skills</h1>
+      <div className='skills'>
+        <Skills skill='python'/>
+        <Skills skill='java'/>
+        <Skills skill='tensorflow'/>
+        <Skills skill='hadoop'/>
+        <Skills skill='hive'/>
+        <Skills skill='sklearn'/>
+        <Skills skill='powerbi'/>
+        <Skills skill='react'/>
+        <Skills skill='node'/>
+        <Skills skill='flask'/>
+        <Skills skill='django'/>
+        <Skills skill='mysql'/>
+        <Skills skill='postgresql'/>
+        <Skills skill='mongodb'/>
+        <Skills skill='aws'/>
+        <Skills skill='git'/>
+        <Skills skill='github'/>
+        <Skills skill='postman'/>
+        <Skills skill='docker'/>
+        <Skills skill='firebase'/>
+      </div>
     
     </div>
 

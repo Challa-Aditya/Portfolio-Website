@@ -1,7 +1,6 @@
 import React from 'react'; 
 import { TbBrandPython } from "react-icons/tb";
 import { FaJava } from "react-icons/fa6";
-import { SiJavascript } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { FaNode } from "react-icons/fa6";
 import { SiFlask } from "react-icons/si";
@@ -19,11 +18,7 @@ import { SiTensorflow } from "react-icons/si";
 import { SiScikitlearn } from "react-icons/si";
 import { SiApachehadoop } from "react-icons/si";
 import { SiApachehive } from "react-icons/si";
-
-
-
-
-
+import { SiPowerbi } from "react-icons/si";
 
 
 const Skills = ({skill}) => {
@@ -34,9 +29,9 @@ const Skills = ({skill}) => {
         sklearn:<SiScikitlearn/>,
         hadoop:<SiApachehadoop/>,
         hive:<SiApachehive/>,
-        javascript : <SiJavascript/>,
         react: <FaReact/>,
         node: <FaNode/>,
+        powerbi:<SiPowerbi/>,
         flask: <SiFlask/>,
         django: <DiDjango/>,
         mysql: <SiMysql/>,
